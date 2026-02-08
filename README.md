@@ -3,9 +3,7 @@
 **Neuro-Space** is a futuristic, web-based Spatial Operating System that merges **Artificial Intelligence**, **Blockchain**, and **Hand-Tracking** into a single immersive 3D experience.
  
 Designed for the future of computing, it allows users to control windows with hand gestures, generate UI with voice commands, and sync seamlessly across devices (Desktop, Mobile, VR/AR Headsets).
- 
-![Neuro-Space Banner](https://via.placeholder.com/1200x600.png?text=NEURO-SPACE+v1.0)
- 
+  
 ---
  
 ## 🚀 Key Features
@@ -222,12 +220,7 @@ Designed for the future of computing, it allows users to control windows with ha
  
  Copy this URL and update `components/Scene3D.tsx`:
  
- ```ts
- const AI_ENDPOINT = isLocal
-   ? "http://localhost:3001"
-   : "https://YOUR-BACKEND-URL.ngrok-free.app";
- ```
- 
+
  ### Step 4: Open on Mobile / VR
  
  Send the Frontend HTTPS Link (from Step 2) to your phone or Quest headset.
