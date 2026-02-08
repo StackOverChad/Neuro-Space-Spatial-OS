@@ -1,0 +1,120 @@
+npm run dev
+npx nodemon server.js
+run the colab file in the rahulgd14092005@gmail.com file and copy the url and paste it in the scene3D file for running
+
+
+
+in terminal run this command for VR
+.\ngrok.exe start --all --config=ngrok.yml
+
+
+
+
+Say: "Jarvis, research Pizza."
+
+
+Say: "Jarvis, research Quantum Mechanics."
+
+
+"set a timer for 15 minutes"
+
+
+"open terminal" 
+
+
+"close all"
+
+
+"Connect Wallet" because of pronounciation "Turned wallet","collect wallet","turn wallet" is also valid
+
+
+"Play music Shape of you"
+
+
+"Google Automation:
+
+Say: "Schedule a meeting with Rohan at 14:00".
+
+Result: The AI extracts the time, the Backend calls Google Calendar, and a Document Window appears confirming: "Scheduled: Meeting with Rohan at 14:00".
+
+YouTube:
+
+Say: "Play LoFi Beats".
+
+Result: The AI finds the video ID, and a YouTube player spawns in your space."
+
+
+
+{ command: 'Pause music', callback: () => handleMusicAction(activeMusicIdRef.current || "", "pause", {}, true) },
+        { command: 'Play music'},
+        { command: 'Resume music'},
+        { command: 'Next track'},
+        { command: 'Next song'},
+        { command: 'Previous track'},
+        { command: 'Previous song'},
+        { command: 'Close music'},
+        { command: 'Close YouTube'},
+        { command: 'Close all videos'},
+
+
+        { command: 'Connect wallet'},
+        { command: 'Turned wallet'},
+        { command: 'Schedule *'},
+        { command: 'Play music *'},
+        { command: 'Play *'},
+        { command: 'Turn wallet'},
+        { command: 'Collect wallet'},
+        { command: 'Close all'},
+
+        { command: 'Generate *'},
+        { command: 'Create *'},
+        { command: 'Set *'},
+        { command: 'I need *'},
+        { command: 'Check *'},
+        { command: 'Research *'},
+        { command: 'Explain *'},
+        { command: 'Jarvis *'};
+
+
+
+“Open notes”
+“Open calculator”
+“Open clock”
+“Open reminders”
+“Open weather”
+“Open browser wikipedia.org”
+Special:
+
+“Show weather in Paris” (auto-updates data)
+“Create note Buy milk” (creates note with text)
+
+
+
+Enter phone mode
+	Say: Jarvis answer the phone
+Speak 2-3 lines
+	Make sure they appear in the spawned conversation window.
+Exit phone mode
+	Either say: Bye Jarvis / Jarvis end assistant
+	Or click the close button on the call window
+Brief last phone
+	Say one of:
+	Jarvis brief the last phone
+	Jarvis brief last phone
+	Jarvis, give me a brief of the last phone
+
+
+
+
+
+Open maps → window.location.origin + "/maps"
+Search maps for <query> → .../maps?q=...   //search maps for shopping malls
+Directions from <A> to <B> → .../maps?from=...&to=...//direction from Jaipur to Bhilai
+OPEN GOOGLE MAPS
+
+
+
+
+Say “Open LinkedIn” → confirm window opens.
+Say “Search LinkedIn jobs for data analyst” → confirm it shows job listings.
+Say “Search LinkedIn jobs for frontend developer in Delhi” → confirm results match query + location.
